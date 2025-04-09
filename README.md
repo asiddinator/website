@@ -1,7 +1,39 @@
-This is my first website. 
-With this change I am now testing out how GIT works.
-This is the new final version. I wonder how long it will take to update on GITHUB.
-I am now testing out a new branch.
+# Dockerized Node.js App
 
+This is a simple Node.js app running in a Docker container.
 
-plans for this website - design an app that uses html, css, and javascript at the start as it is a static website currently
+## Prerequisites
+
+- Docker and Docker Compose installed.
+- Node.js and npm installed (optional, for local development).
+
+## How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   cd code
+   ```
+
+2. Build and run the app using Docker Compose:
+   ```bash
+   docker-compose up
+   ```
+
+3. Access the app at [http://localhost:3000](http://localhost:3000).
+
+## Local Development (Optional)
+
+If you want to run the app without Docker:
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the app:
+   ```bash
+   npm start
+   ```
+
+3. Access the app at [http://localhost:3000](http://localhost:3000).
