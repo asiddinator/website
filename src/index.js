@@ -1,13 +1,11 @@
-const express = require('express'); // Import Express.js
-const app = express();             // Create an Express app
-const PORT = 3000;                 // Define the port number
+const express = require('express');
+const app = express();
+const PORT = 3000;
 
-// Define a route for the homepage
 app.get('/', (req, res) => {
-  res.send('Hello, World!'); // Send a response when someone visits the homepage
+  res.send('Hello, Dockerized World!');
 });
 
-// Start the server and listen on the defined port
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
