@@ -3,5 +3,9 @@ version: '3.8'
 services:
   webapp:
     build: .
+<<<<<<< HEAD
+=======
+    container_name: my_first_app
+>>>>>>> e7353d6004c3f13ec858731c448e5ea8df7fa7ed
     ports:
       - "8080:80"
