@@ -1,14 +1,14 @@
 {
-    "name": "dockerized-node-app",
-    "version": "1.0.0",
-    "description": "A simple Node.js app running in Docker",
-    "main": "src/index.js",
-    "scripts": {
-      "start": "node src/index.js"
-    },
-    "author": "Your Name",
-    "license": "MIT",
-    "dependencies": {
-      "express": "^4.18.2"
-    }
+  "name": "first-docker-app",
+  "version": "1.0.0",
+  "description": "My first Dockerized Node.js app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
   }
+}
